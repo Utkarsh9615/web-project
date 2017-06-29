@@ -1,0 +1,48 @@
+.wraper{
+	background-color:skyblue;    border:1px solid;     height:900px; margin:4px;
+}
+.header{
+	background-color:orange;    height:100px;    border:1px solid; margin:2px;  padding:3px; margin:3px;
+}
+h1{
+	text-align:centre;   margin-left:440px;    margin-top:35px;  color:blue;
+}
+
+#pic{
+  width:40%;  margin-top:85px;   margin:20px;
+  float:left;   margin-left:4px;  border:2px black solid;
+}
+.nav{
+	float:left;   height:396px; width:20%;  margin:20px; background-color:skyblue;  margin-top:90px;
+}
+.right_side{
+	border:solid 2px black; float:right;   margin:20px;     width:30%; 
+}
+.footer{
+	margin-left:350px;   margin-top:20px;  text-align:centre;  padding:2px;
+}
+a{
+	text-shadow:orange;  text-decoration:underline;          color:purple;  text-align:centre;  font-family:"georgia"; 
+	font-color:#0000cd; font-size:20px;   padding-left:30px;  padding-top:30px;
+}
+a:hover{
+	color:green;
+}
+a:active{
+	color:red;    font-family:italic;
+}
+a:visited{
+	color:black;   font-family:bold;   text-decoration:none;
+}
+.centre{
+	text-align:centre;    margin-left:200px;
+}
+.start{
+  text-align:centre; text-shadow: 5px 4px 6px grey; font-family:"georgia";  font-color:#0000cd; font-size:20px;  text-transparent:capitalize;
+}
+.drama{
+	color:blue;
+}
+.border{
+	border:solid 2px black;
+}

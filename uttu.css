@@ -1,0 +1,26 @@
+.list_item ol{  
+
+width:100%;
+color:black;
+font-size:20px;
+}
+body {
+	background-color: skyblue;
+	margin:5px;
+}
+.bullet_point ul{
+	
+	font-size : 20px;
+	color: black
+}
+#f1 {
+	float:left;
+}
+p {
+	font-style:italic;
+	font-size:18;
+}
+a {color:red;}
+a:hover{ color: green;
+text-deoration:underline;}
+a:active{color:pink;}
