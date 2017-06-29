@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+   <meta charset="utf-8"/>
+   <title>www.cbpgec.ac.nic</title>
+   <link rel="stylesheet"  href="college2.css" />
+   <script type="text/javascript">
+   var image_tracker='1';
+   function change(){
+   var image=document.getElementById('pic');
+   if (image_tracker =='1'){
+   image.src='campus.png';
+   image_tracker='2';
+   }
+   else if(image_tracker =='2'){
+   image.src='pic1.png';
+   image_tracker='3';
+   }
+   else if(image_tracker =='3' ){
+   image.src='pic2.png';
+   image_tracker='4';
+   }
+   else if(image_tracker =='4')
+   {image.src='pic4.png';
+   image_tracker='5';
+   }
+   else if(image_tracker =='5'){
+   image.src='pic5.png';
+   image_tracker='6';
+   }
+   else if(image_tracker =='6'){
+   image.src='pic6.png';
+   image_tracker='7';
+   }
+   else{
+   image.src='pic7.png';
+   image_tracker='1';
+   }
+   }
+   var timer=setInterval('change()',1500);
+   </script>
+   
+   </head>
+   <body>
+   <div class="wraper">
+   <div class="header">
+   <h1>WELCOME  TO  CBPGEC!</h1>
+   </div>
+   
+   <img src="campus.png" alt="CBPGEC"  width="550"  height="400"  id="pic"   onclick="change();" />
+   <div class="nav">
+    <a href="website.html">New admission <br/></a><br/>
+    <a href="student.html">Bright students<br/></a><br/>
+    <a href="placement.html">Training & Placement Cell<br/></a><br/>
+	<a href="faculty.html"> Principal & faculty details</a><br/><br/>
+	<a href="college.html">Home Page</a>
+    </div>
+   <div class="right_side">
+   <img src="pic8.png" alt="logoo" width="380" height="400" />
+   </div>
+  <!-- <div class="clear"></div>-->
+   <div class="footer">
+   <p>
+   <font size="20" font="bold" color="red" />
+   Jaffarpur,Najafgarh,New Delhi<br/><div class="centre">110073.</div>
+   </p>
+   </div>
+   </div>
+   </body>
+ </html>

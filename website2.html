@@ -1,0 +1,131 @@
+<html>
+  
+       <head>      
+	           <meta charset="utf-8"/>
+	   
+	           <title>application form </title>
+			   <link rel="stylesheet" href="uttu.css"/>
+			   <script type="text/javascript">  
+			   
+			         function cal_percentage(){  
+					 var enter_marks=document.getElementById('marks');
+					 var total_marks=document.getElementById('total=500');
+					 var percentage= (enter_marks*100)/total_marks;
+					 
+					 percentage.innerHTML=enter_marks.value*100/total_marks.value;
+					  }
+			   
+			   
+			   </script>
+			   
+			   <style type="text/css">
+			   .photo{
+			  
+				text-align:center;
+				background-color:white;
+				padding:85px 10px 85px 10px;
+				margin-right:50px;
+				border:solid 2px black;
+				float:right;
+				}
+				#form { margin-left:30px;}  
+		        h2{margin-left:30px;}
+		
+			   </style>
+	   </head>
+	   <body bgcolor="skyblue">     
+	           <form action="" method="get">
+			     <h2> Personal Data </h2><br/>				 
+				     <div class="photo">
+				           paste your photograph
+					 </div>	
+         <div id="form">
+					 
+			     First name*:<input type="text" name="first name*"  size="20"/>
+				 
+			     last name:<input type="text" name=" last name"  size="15"/><br/><br/>
+				 
+	             Father name*:<input type="text" name "father name*" size="20"/>
+				 
+	             last name:<input type="text" name "last name" size="15"/><br/><br/>
+				 
+	             Mother name*:<input type="text" name "mother name*" size="20"/>
+				 
+	             last name:<input type="text" name "last name" size="15"/><br/><br/>
+				 <p class="10th"> date of birth from metric certificate.</p>
+				 DOB(dd/mm/year)*:<input type="text" name="DOB*" size="10"/>
+				 
+				 <p id="gender"> what's your gender</p><br/>
+				 
+				 Male:<input type="radio" name="auto_renew" value="male" id="auto_renew_male"/>
+				 
+				 Female:<input type="radio" name="auto_renew" value="female" id="auto_renew_female"/>
+				 
+				 <p id="category"> whats your category</p><br/>
+				 Reserved:<input type="radio" name="auto_renew" value="Reserved" id="auto_renew_Reserved"/>
+				 
+				 Unreserved:<input type="radio" name="auto_renew" value="Unreserved" id="auto_renew_Unreserved"/>
+				 
+				 <h3 class"contact"> Contact details </h3><br/>
+				 Your email*:<input type="text" name="textfield" size="40"/><br/><br/>
+				 
+				 Phone no*:<input type="text" name="textfield" size="20"/>
+				 
+				 Alternate no:<input type="text" name="textfield" size="20"/><br/><br/>
+				 
+				 <h4> Address </h4>
+				 Country:<input type="text" name ="textfield" value="india" size="15"/> <br/><br/>
+				 
+				 House no:<input type ="text" name ="textfield" size="8"/> City:<input type="text" name="textfield" size="10"/>
+				 
+				 Pin code:<input type="text" name="textfield" size="6"/> State:<input type="text" name="textfield" size="15"/>
+				 
+				 <h3 class="acedemics"> Educational details </h3> <br/>
+				 
+				 CET rank:<input type="text" name="textfield" size="6"/>
+				 
+				 Or   MAINS rank:<input type="text" name="textfield" size="8"/><br/> 
+				 
+				 <h5>Intermidiate score</h5>
+				 Marks scored*:<input type="text" name="textfield" size="4" id="marks"/>
+				 
+				 Total marks*:<input type="text" name="textfield" size="4" id="total"/>
+				 Percentage %*:<input type="text" name="textfield" value="%" size="4"/ >
+				 <h5>Metric score</h5>
+				 Marks scored*:<input type="text" name="textfield" size="4" id="mmarks"/>
+				 
+				 Total marks*:<input type="text" name ="textfield"  size="4" id="ttotal"/>
+				 Percentage %*:<input type="text" name="textfield" value="%" size="4"/>
+				 
+				 
+				 <h3 id="activity"> Extra cirricular activities </h3><br/><br/> 
+				 
+				  Sports:<input type="checkbox" name="sports" id="sports" /> <input type="text" name ="textfield" size="50" value="which sports"/><br/><br/>
+				  
+				  Project:<input type="checkbox" name="project" id="project" /> <input type="text" name ="textfield" size="50" value="which projects"/><br/><br/>
+				  Achievments:<input type="checkbox" name="achievments" id="achievments" /> <input type="text" name ="textfield" size="
+				  50" value="what are your achievments"/><br/>
+				  <p id="terms">I certify that the information provided by me in the form is true to best of my knowledge</p><br/>
+				  
+				  yes:<input type ="radio" name="yes" id="yes" onclick=""/><br/><br/>
+				  
+				  Go to next page for payment,for that click proceed!!
+				  
+				  <a href="payment.html"> Proceed: <input type="text" name="textfield" value="Submit" size="6" id="Proceed" /></a>
+				  </form>
+		</div>		  
+			
+				  
+				  
+				  
+	           </form>
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   </body>  
+</html>
